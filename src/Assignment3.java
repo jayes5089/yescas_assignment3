@@ -88,7 +88,11 @@ public class Assignment3 {
 	}
 	// This is the opening message and the beginning of the game.
 	public static void main(String[] args) {
-		System.out.println("Rock, Paper, Scissors...");
+		System.out.println("RULES:");
+		System.out.println("Player must pick either 1, 2, or 3. (Rock, Paper, and Scissors respectively)");
+		System.out.println("Computer will pick randomly from 1 to 3.");
+		System.out.println("Computer's decision will be shown after player's decision.");
+		System.out.println("\nRock, Paper, Scissors...");
 		// This calls to start the game.
 		startGame();
 	}
